@@ -1,6 +1,6 @@
 version: 2
-endpoint: http://localhost:8080
+endpoint: http://localhost:10000
 metadata_directory: metadata
 actions:
   kind: synchronous
-  handler_webhook_baseurl: http://localhost:3000
+  handler_webhook_baseurl: http://localhost:10001/api/auth/webhook
