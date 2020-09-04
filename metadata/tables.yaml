@@ -9,7 +9,7 @@
           schema: public
           name: auth_provider_config
         column_mapping:
-          auth_provider_config_id: id
+          id: auth_provider_id
 - table:
     schema: public
     name: auth_provider_config
