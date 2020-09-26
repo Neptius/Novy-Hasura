@@ -1,15 +1,15 @@
 - table:
     schema: public
-    name: auth_provider
+    name: auth_provider_configs
+- table:
+    schema: public
+    name: auth_providers
   object_relationships:
   - name: auth_provider_config
     using:
       manual_configuration:
         remote_table:
           schema: public
-          name: auth_provider_config
+          name: auth_provider_configs
         column_mapping:
-          id: auth_provider_id
-- table:
-    schema: public
-    name: auth_provider_config
+          auth_provider_config_id: id
